@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: rgba(222, 116, 24, 0.7);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background-image: url('PIZZA.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.order-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #c66229;
+    color: #fff;
+}
+.footer{
+    font-size: 20px;
+}
+

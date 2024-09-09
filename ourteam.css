@@ -1,0 +1,51 @@
+.team-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f7defb;
+}
+
+.team-section h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #333;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-card h3 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #ff6600;
+}
+
+.team-card p {
+    color: #3a3939;
+    font-size: 14px;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
